@@ -8,6 +8,16 @@ botaoAdicionar.addEventListener("click", function(event){
 
     var pacienteTr = montaTr(paciente);
 
+    var erro = validaPaciente(paciente);
+
+    //validação do paciente
+    if(erro.length > 0){
+        var mensagemErro = document.querySelector("#mensagem-erro");
+        mensagemErro.textContent = erro;
+        return; //Return "vazio" para pular a função que adiciona o paciente na tabela
+    }
+
+    //adicionando paciente na tabela
     var tabela = document.querySelector("#tabela-pacientes")
     tabela.appendChild(pacienteTr);
 
@@ -64,5 +74,14 @@ function montaTd(dado,classe){
     td.classList.add(classe);
 
     return td;
+}
 
+function validaPaciente(paciente){
+
+    var erros = [];
+
+    if(!validaPeso(paciente.peso)) erros.push("Peso inválido");
+    if(!validaAltura(paciente.altura)) erros.push("Altura inválida");
+
+    return erros;
 }
