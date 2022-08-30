@@ -1,0 +1,152 @@
+@media screen and (max-width: 480px) {
+
+    .container {
+        height: auto;
+        max-height: unset;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-pricipal {
+        width: 100%;
+    }
+
+    .esquerda {
+        width: 100%;
+    }
+
+    .bt-cripto,
+    .bt-descripto {
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    form textarea {
+        margin-top: 50px;
+        margin-bottom: 0;
+        resize: none;
+        height: 400px !important;
+    }
+
+    .alerta img {
+        margin-left: 0;
+    }
+
+    span {
+        margin: 0 0 16px 0;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        padding-left: 0;
+    }
+
+    .bt-copiar {
+        margin-top: 30px;
+    }
+
+    .direita {
+        width: 100%;
+        padding: 20px 10px 20px 10px;
+        margin: 0;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .texto-pricipal p {
+        margin-bottom: 20px;
+    }
+
+    #mensagem-nao-encontrada {
+        display: none;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto;
+        max-height: unset;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-pricipal {
+        width: 100%;
+    }
+
+    .esquerda {
+        width: 100%;
+    }
+
+    .bt-cripto,
+    .bt-descripto {
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    form textarea {
+        margin-top: 50px;
+        margin-bottom: 0;
+        resize: none;
+        height: 400px !important;
+    }
+
+    .alerta img {
+        margin-left: 0;
+    }
+
+    span {
+        margin: 0 0 16px 0;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        padding-left: 0;
+    }
+
+    .bt-copiar {
+        margin-top: 30px;
+    }
+
+    .direita {
+        width: 100%;
+        padding: 20px 10px 20px 10px;
+        margin: 0;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .texto-pricipal p {
+        margin-bottom: 20px;
+    }
+
+    #mensagem-nao-encontrada {
+        display: none;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+}

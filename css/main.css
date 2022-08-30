@@ -1,0 +1,200 @@
+:root {
+    --dark-blue-100: #609ED4;
+    --dark-blue-200: #356EA9;
+    --dark-blue-300: #0A3871;
+    --dark-blue-400: #072B61;
+    --dark-blue-500: #052051;
+
+    --light-blue-100: #F3F5FC;
+    --light-blue-200: #EFF1FA;
+    --light-blue-300: #E9ECF8;
+    --light-blue-400: #AAB2D5;
+    --light-blue-500: #757FB2;
+
+    --gray-100: #CED4DA;
+    --gray-200: #ADB5BD;
+    --gray-300: #868E96;
+    --gray-400: #485057;
+    --gray-500: #343A40;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--light-blue-100);
+}
+
+.container {
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    width: 100%;
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.esquerda {
+    width: 60%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.logo-alura:hover {
+    height: 48px;
+    margin-right: 100px;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+form {
+    padding-top: 60px;
+    padding-left: 110px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: calc(100% - 148px);
+}
+
+form textarea {
+    width: 100%;
+    border: none;
+    font-family: "Inter";
+    outline: none;
+    color: var(--dark-blue-300);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    background-color: transparent;
+}
+
+form textarea::placeholder {
+    color: var(--dark-blue-300);
+}
+
+button {
+    width: 328px;
+    height: 67px;
+    background-color: transparent;
+    text-align: center;
+    box-shadow: none;
+    border: 1px solid var(--dark-blue-300);
+    border-radius: 24px;
+    padding: 24px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;
+    outline: none;
+}
+
+.alerta {
+    font-family: 'Inter';
+    font-size: 12px;
+    color: var(--gray-400);
+    opacity: 0.8;
+    margin: 0 0 16px 8px;
+}
+
+.alerta img {
+    margin-bottom: -4px;
+}
+
+.botoes {
+    display: flex;
+    gap: 20px;
+}
+
+button.bt-cripto {
+    background-color: var(--dark-blue-300);
+    color: #FFFFFF;
+}
+
+button.bt-descripto {
+    background-color: #D8DFE8;
+    color: var(--dark-blue-300);
+}
+
+button.bt-copiar {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #D8DFE8;
+    color: var(--dark-blue-300);
+}
+
+.direita {
+    width: 40%;
+    height: 680px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.521);
+    border-radius: 32px;
+    margin: 40px 40px 40px 100px;
+    padding: 25px;
+}
+
+.texto-criptografado p {
+    overflow: auto;
+}
+
+.sem-retorno img {
+    margin: 150px 32px 0 32px;
+}
+
+.titulo-sem-retorno {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--gray-500);
+
+    margin: 32px 32px 32px 16px;
+}
+
+.sem-retorno p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-400);
+}
+
+.texto-criptografado {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto-criptografado p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+    color: var(--gray-400);
+}
+
+.d-none {
+    display: none;
+    pointer-events: none;
+}
+
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(var(--dark-blue-100), var(--dark-blue-200), var(--dark-blue-300));
+    padding: 40px 0;
+    display: block;
+    height: auto;
+}
+
+.logo-link {
+    height: 70px;
+    margin: 15px 5px 20px 5px;
+}
+
+.logo-link:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
