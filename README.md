@@ -36,7 +36,7 @@ Extra
 
 GitHub Pages
 
---> https://github.com/moisesventtura/decodificador-alura
+--> https://moisesventtura.github.io/decodificador-alura/
 
 Badge pela Conclusão do Desafio
 ---
